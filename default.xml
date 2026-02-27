@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="asdc" revision="main" sync-j="4" />
+
+  <remote name="asdc" fetch="git@github.com:Heights-Telecom-ASDC" />
+
+  <project name="fabric-sdk-mgmt-base.git" path="." remote="asdc" revision="main" />
+  <project name="fabric-sdk-mgmt-config.git" path="fabric-sdk-mgmt-config" remote="asdc" revision="mxl25641" />
+  <project name="fabric-sdk-prpl.git" path="sdk" remote="asdc" revision="main" />
+  <project name="fabric-overlay-maxlinear-prpl.git" path="sdk/prplware-v4.1.0/overlay/maxlinear" remote="asdc" revision="mxl25641/prplware-v4.1.0" />
+</manifest>
