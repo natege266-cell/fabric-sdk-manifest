@@ -3,6 +3,7 @@
   <default remote="origin" revision="main" sync-j="4" />
 
   <remote name="origin" fetch="git@github.com:natege266-cell" />
+  <remote name="asdc" fetch="git@github.com:Heights-Telecom-ASDC" />
 
   <project name="fabric-sdk-prpl.git" path="sdk" remote="asdc" revision="main" />
   <project name="fabric-sdk-manifest.git" path="fabric-sdk-manifest" remote="origin" revision="mxl25641/prplware-v4.1.0" />
