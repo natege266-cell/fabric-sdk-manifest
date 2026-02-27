@@ -5,9 +5,8 @@
   <remote name="origin" fetch="git@github.com:natege266-cell" />
   <remote name="asdc" fetch="git@github.com:Heights-Telecom-ASDC" />
 
+  <project name="fabric-sdk-mgmt-base.git" path="." remote="origin" revision="main" />
+  <project name="fabric-sdk-mgmt-config.git" path="./config" remote="origin" revision="mxl25641" />
   <project name="fabric-sdk-prpl.git" path="sdk" remote="asdc" revision="main" />
-  <project name="fabric-sdk-manifest.git" path="fabric-sdk-manifest" remote="origin" revision="mxl25641/prplware-v4.1.0" />
-  <project name="fabric-sdk-mgmt-base.git" path="fabric-sdk-mgmt-base" remote="origin" revision="main" />
-  <project name="fabric-sdk-mgmt-conifg.git" path="fabric-sdk-mgmt-config" remote="origin" revision="mxl25641" />
-  <project name="fabric-overlay-maxlinear-prpl.git" path="fabric-overlay-maxlinear-prpl" remote="origin" revision="mxl25641/prplware-v4.1.0" />
+  <project name="fabric-overlay-maxlinear-prpl.git" path="sdk/prplware-v4.1.0/overlay/maxlinear" remote="origin" revision="mxl25641/prplware-v4.1.0" />
 </manifest>
