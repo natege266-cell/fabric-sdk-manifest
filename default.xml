@@ -4,6 +4,7 @@
 
   <remote name="origin" fetch="git@github.com:natege266-cell" />
 
+  <project name="fabric-sdk-prpl.git" path="sdk" remote="asdc" revision="main" />
   <project name="fabric-sdk-manifest.git" path="fabric-sdk-manifest" remote="origin" revision="mxl25641/prplware-v4.1.0" />
   <project name="fabric-sdk-mgmt-base.git" path="fabric-sdk-mgmt-base" remote="origin" revision="main" />
   <project name="fabric-sdk-mgmt-conifg.git" path="fabric-sdk-mgmt-config" remote="origin" revision="mxl25641" />
